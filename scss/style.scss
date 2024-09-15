@@ -1,0 +1,357 @@
+/* Базовые стили для десктопов */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url("../img/image.png");
+  background-size: cover;
+  height: 800px;
+  padding-left: 165px;
+  padding-right: 165px;
+  padding-top: 50px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-navigation {
+  display: flex;
+}
+
+.header-solid {
+  margin-right: 34px;
+  margin-left: 21px;
+}
+
+.header-navigation-block-left {
+  display: flex;
+}
+
+.header-navigation-block-left img {
+  margin-top: 17px;
+}
+
+.header-navigation-block-left_nav-ul {
+  display: flex;
+}
+
+.header-navigation-block-left_nav-ul-li {
+  color: #fff;
+  list-style-type: none;
+  margin-right: 23px;
+  cursor: pointer;
+}
+
+.header-navigation-block-left_nav-ul-li:hover {
+  color: #D67E35;
+}
+
+.header-navigation-block-right {
+  display: flex;
+}
+
+.header-navigation-block-right_call img {
+  margin-right: 5px;
+}
+
+.header-navigation-block-right_call span {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 12px;
+  display: inline-block;
+}
+
+.header-navigation-block-right_call p {
+  width: 155px;
+  height: 38px;
+  color: #fff;
+  margin-top: 1px;
+}
+
+.header-navigation-block-right_btn button {
+  width: 157px;
+  height: 47px;
+  color: #fff;
+  background-color: #FF7400;
+  border: none;
+  cursor: pointer;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 45px;
+}
+
+.section-main-restorant {
+  margin-top: -500px;
+  padding-left: 175px;
+  display: flex;
+}
+
+.main-restorant_block-info {
+  text-align: center;
+  justify-content: flex-start;
+}
+
+.main-restorant_block-info h2 {
+  font-family: Tinos;
+  font-size: 50px;
+  font-weight: 400;
+  color: #D67E35;
+  margin: 0;
+}
+
+.main-restorant_block-info h1 {
+  font-family: Tinos;
+  font-size: 80px;
+  font-weight: 400;
+  color: #D67E35;
+  margin: 0;
+}
+
+.main-restorant_block-info-down {
+  margin-top: 12px;
+}
+
+.main-restorant_block-info-down span {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 12px;
+  margin-left: 8px;
+  margin-right: 8px;
+  color: #fff;
+}
+
+.main-restorant_block-info button {
+  margin-top: 21px;
+  width: 157px;
+  height: 47px;
+  color: #fff;
+  background-color: #FF7400;
+  border: none;
+  cursor: pointer;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.section-main-info_block {
+  display: flex;
+  justify-content: center;
+  margin-top: 124px;
+}
+
+.section-main-info_block-box {
+  display: flex;
+  margin-right: 31px;
+  justify-content: center;
+  width: 349px;
+  height: 328px;
+  background-color: #fff;
+  box-shadow: 0px 15px 8px 1px rgba(34, 60, 80, 0.19);
+}
+
+.section-main-info_block-box-img {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.section-main-info_block-box-p-one {
+  font-family: Tinos;
+  font-size: 26px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.section-main-info_block-box-p-two {
+  font-family: Tinos;
+  font-size: 26px;
+  font-weight: 400;
+  text-align: center;
+  color: #656363;
+}
+
+.section-main-info_block-box-span {
+  color: #BC9060;
+}
+
+.section-main-histori {
+  margin-top: 146px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-main-histori-block-left {
+  width: 550px;
+  text-align: center;
+}
+
+.section-main-histori-block-left-h2 {
+  font-family: Tinos;
+  font-size: 54px;
+  font-weight: 400;
+}
+
+.section-main-histori-block-left-h2 span {
+  color: #D67E34;
+}
+
+.section-main-histori-block-left-p {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  color: #656363;
+}
+
+.section-main-histori-block-right {
+  width: 400px;
+  margin-top: 25px;
+}
+
+.section-main-histori-block-right-img-block img {
+  position: absolute;
+}
+
+.section-main-img {
+  margin-top: 182px;
+  background-image: url("../img/bg.png");
+  height: 357px;
+  display: flex;
+  padding-left: 165px;
+  padding-right: 165px;
+  justify-content: space-between;
+}
+
+.section-main-img_block-left h2 {
+  font-family: Tinos;
+  font-size: 52px;
+  font-weight: 400;
+  text-align: left;
+  color: #D67E34;
+  margin-top: 80px;
+}
+
+.section-main-img_block-left p {
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.section-main-img_block-right button {
+  width: 157px;
+  height: 47px;
+  color: #fff;
+  background-color: #FF7400;
+  border: none;
+  cursor: pointer;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 45px;
+  margin-top: 169px;
+}
+
+/* Медиа-запросы для телефонов с шириной экрана до 768px */
+@media (max-width: 768px) {
+  header {
+    padding: 20px;
+    height: auto;
+  }
+
+  .header-navigation {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-navigation-block-left_nav -ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-navigation-block-left_nav-ul-li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .header-navigation-block-right_call span,
+  .header-navigation-block-right_call p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .header-navigation-block-right_btn button {
+    width: 100%;
+    margin: 20px 0 0;
+  }
+
+  .section-main-restorant {
+    padding: 20px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .main-restorant_block-info h1 {
+    font-size: 40px;
+  }
+
+  .main-restorant_block-info h2 {
+    font-size: 30px;
+  }
+
+  .section-main-info_block {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-main-info_block-box {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .section-main-histori {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .section-main-histori-block-left,
+  .section-main-histori-block-right {
+    width: 100%;
+  }
+
+  .section-main-img {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .section-main-img_block-right button {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .section-main-menu-box-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-main-menu-box {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .section-main-kom {
+    padding: 20px;
+  }
+}
